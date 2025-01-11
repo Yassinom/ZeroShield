@@ -75,7 +75,7 @@ This project is a **final semester project** at the **National School of Applied
 
 This tool is for educational and defensive purposes only. Users are responsible for compliance with applicable laws and regulations in their jurisdiction.
 
-## ⚠️ Screenshots
+## 📸 Screenshots
 -------------
 
 ![Screenshot 2](./screenshots/pic2.png)
