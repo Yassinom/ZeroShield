@@ -23,27 +23,33 @@ You can view the demo video [here](./screenshots/preview.mp4).
 - Network access for traffic monitoring  
 
 ### Installation  
+1. Update the system:
 
-1. Clone the repository:  
+   On Linux-based systems:
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   ```
+
+2. Clone the repository:  
 
    ```bash
    git clone https://github.com/Yassinom/ZeroShield.git
    cd ZeroShield
    ```
    
-2. Install dependencies:
+3. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
    
-3. Start MongoDB container for traffic and prediction storage:
+4. Start MongoDB container for traffic and prediction storage:
 
    ```bash
    docker run -d --name mongodb -p 27017:27017 mongo:latest
    ```   
 
-4. Launch the application:
+5. Launch the application:
 
    ```bash
    chmod +x main.py
