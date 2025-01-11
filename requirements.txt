@@ -1,0 +1,10 @@
+customtkinter
+pymongo
+numpy
+pandas
+scikit-learn
+tensorflow
+pyshark
+pytorch-tabnet
+docker
+gnome-terminal
